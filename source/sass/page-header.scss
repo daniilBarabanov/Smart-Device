@@ -1,0 +1,71 @@
+@media(min-width:1024px) {
+  body {
+    background-color: #fff;
+  }
+  .page-header {
+    background-color: darkblue;
+    min-height: 950px;
+    font-family: 'Roboto Condensed';
+  }
+  .page-header__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding:0 250px;
+  }
+  .page-header__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 52px;
+    margin-top: 33px;
+  }
+  .header-contacts {
+    display: flex;
+    flex-direction: row;
+  }
+  .contacts-item:first-child {
+    position: relative;
+    margin-right: 122px;
+  }
+  .contacts-item:first-child::before {
+    content: '';
+    position: absolute;
+    width: 19px;
+    height: 14px;
+    background: url('/img/Group.svg') no-repeat;
+    background-size: cover;
+    right: 126px;
+    top:2px;
+  }
+  .contacts-item:nth-child(2n) {
+    position: relative;
+    margin-right: 38px;
+  }
+  .contacts-item:nth-child(2n)::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: url('/img/phone-call.svg') no-repeat;
+    background-size: cover;
+    right: 192px;
+    top:2px;
+  }
+  .contacts-item__link {
+    font-family: 'PT Mono';
+    font-size: 16px;
+    line-height: 18px;
+    color:#ffffff;
+  }
+  .contacts-item__button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+  }
+}
