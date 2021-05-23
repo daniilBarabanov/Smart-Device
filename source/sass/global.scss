@@ -54,10 +54,6 @@ body {
        url('../fonts/pt-mono-v8-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('../fonts/pt-mono-v8-latin_cyrillic-regular.svg#PTMono') format('svg'); /* Legacy iOS */
 }
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 .visually-hidden {
   position: absolute;
@@ -72,11 +68,4 @@ img {
 
 .hidden-image {
   display: none;
-}
-a {
-  text-decoration: none;
-  color:inherit;
-}
-ul {
-  list-style: none;
 }
