@@ -3,7 +3,10 @@
     flex-direction: column;
     margin:0 auto;
     width: 61%;
-    
+    box-sizing: border-box;
+    background:url(/img/2005-desktop@1x.png) no-repeat;
+    background-size:contain;
+    background-position: -28px 0px;
 }
 .page-about h2 {
     font-family: 'Roboto Condensed', 'Arial', sans-serif;
@@ -22,7 +25,9 @@
     font-weight: 400;
     color:#666666;
     margin:0;
+    max-width: 87%;
     margin-left: 180px;
+    height: inherit;
 }
 .page-about p:first-of-type{
     margin-bottom: 20px;
@@ -40,10 +45,10 @@
     text-decoration: none;
     color:#00B2FF;
     align-self: flex-start;
-    width: 178px;
+    width: 180px;
     height: 43px;
     border:1px solid #00B2FF;
     box-sizing: border-box;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 180px;
 }
