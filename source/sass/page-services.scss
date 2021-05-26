@@ -1,6 +1,5 @@
 .page-services {
   background-color:#1B2D37;
-  margin-top: 110px;
 }
 .page-services__wrapper {
   display: flex;
@@ -15,6 +14,8 @@
   line-height: 50px;
   font-weight: 400;
   color:#ffffff;
+  margin:0;
+  margin-top: 91px;
 }
 .services-list {
   display: flex;
@@ -22,16 +23,20 @@
   justify-content: space-between;
   list-style: none;
   padding:0;
+  margin: 0;
+  margin-bottom: 127px;
 }
 .services-item {
-  height: 620px;
-  width: 32%;
+  min-height: 620px;
+  width: 31%;
 }
 .services-item__link {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
+  text-decoration: none;
 }
 .services-item__link__name {
   font-family: 'Roboto Condensed', 'Arial', sans-serif;

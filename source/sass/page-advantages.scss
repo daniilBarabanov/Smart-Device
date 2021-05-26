@@ -17,6 +17,7 @@
     margin-top: 109px;
 }
 .advantages-item {
+    position: relative;
     display: flex;
     flex-direction: column;
     border-top:1px solid #ebebeb;
@@ -31,6 +32,7 @@
     padding-right: 42px;
     align-self: stretch;
     box-sizing: border-box;
+    transition: ease-in 0.2s;
 }
 .advantages-item__image {
     margin-left: 45px;
@@ -39,6 +41,7 @@
     margin-right: 30px;
 }
 .advantages-item h3 {
+    position: relative;
     font-family: 'Roboto Condensed', 'Arial', sans-serif;
     font-size: 24px;
     line-height: 33px;
@@ -52,4 +55,66 @@
     line-height: 21px;
     color:#666666;
     margin-left: 45px;
+}
+.advantages-item:hover {
+  background-color: #00B2FF;
+}
+.advantages-item:hover h3,
+.advantages-item:hover p {
+  color:#ffffff;
+}
+.advantages-item:nth-child(1):hover::before
+ {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: url(/img/icon-timer-hover.svg) no-repeat;
+  top:40px;
+  left:45px;
+  background-size: contain;
+ }
+.advantages-item:nth-child(2):hover::before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: url(/img/icon-suppliers-hover.svg) no-repeat;
+  top:40px;
+  left:45px;
+}
+.advantages-item:nth-child(3):hover::before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: url(/img/icon-confidence-hover.svg) no-repeat;
+  top:40px;
+  left:45px;
+}
+.advantages-item:nth-child(4):hover::before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: url(/img/icon-offer-hover.svg) no-repeat;
+  top:40px;
+  left:45px;
+}
+@media(max-width:1023px) {
+  .page-advantages__wrapper {
+    width: 93.5%;
+  }
+  .advantages-item {
+    padding-top: 24px;
+  }
+  .advantages-item__image {
+    margin-left: 27px;
+  }
+  .advantages-item h3 {
+    margin-left: 27px;
+}
+.advantages-item p {
+  margin-left: 27px;
+}
 }

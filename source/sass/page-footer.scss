@@ -55,7 +55,37 @@
   text-decoration: none;
   color:#1B2D37;
   opacity: 0.5;
+  cursor: pointer;
 }
+.footer-top__right__heading {
+  font-family: 'Roboto Condensed', 'Arial', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color:#1B2D37;
+  margin:0;
+  margin-bottom: 15px;
+}
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding:0;
+  margin:0;
+  list-style: none;
+  max-width: 100%;
+}
+.footer-contacts__item__link {
+  font-family: 'PT Mono', 'Arial', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: none;
+  color:#1B2D37;
+  opacity: 0.5;
+  cursor: pointer;
+}
+/* деление центрального списка на 2 части */
 @media(min-width:1919px) {
   .sections-list {
     display: flex;
@@ -68,3 +98,41 @@
     height: 100px;
   }
 }
+.footer-bottom {
+  width: 100%;
+  margin:0 auto;
+  display: flex;
+  flex-direction: row;
+  border-top: 1px solid rgba(98,105,98,0.2);
+}
+.footer-rights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  width: 75%;
+  padding:0;
+  margin:0 auto;
+}
+.footer-rights__item {
+  margin-right: 6px;
+}
+.footer-rights p {
+  font-family: 'PT Mono', 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color:#1B2D37;
+  opacity: 0.5;
+}
+/*
+.footer-bottom__copyrights {
+  margin-right: 5%;
+}
+.footer-bottom__tag {
+  margin-right: 10%;
+}
+.footer-bottom__conf {
+  margin-right: 31%;
+}
+*/

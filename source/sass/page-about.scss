@@ -1,3 +1,6 @@
+.page-about {
+  padding-bottom: 110px;
+}
 .page-about__wrapper {
     display: flex;
     flex-direction: column;
@@ -29,8 +32,11 @@
     margin-left: 180px;
     height: inherit;
 }
+.page-about__description--tablet {
+  display: none;
+}
 .page-about p:first-of-type{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .page-about__more {
     display: flex;
@@ -46,9 +52,37 @@
     color:#00B2FF;
     align-self: flex-start;
     width: 180px;
-    height: 43px;
+    height: 45px;
     border:1px solid #00B2FF;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 180px;
+    border-radius: 5px;
+}
+@media(max-width:1023px) {
+  .page-about {
+    padding-bottom: 83px;
+  }
+  .page-about__wrapper {
+    background: url(/img/2005-tablet@1x.png) no-repeat;
+    width: 93.5%;
+    background-position: -28px -8px;
+  }
+  .page-about h2 {
+    font-size: 32px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+  .page-about__description--desktop {
+    display: none;
+  }
+  .page-about__description--tablet {
+    display: block;
+  }
+  .page-about p:first-of-type{
+    margin-bottom: 30px;
+}
+  .page-about__more {
+    margin-top: 36px;
+  }
 }
