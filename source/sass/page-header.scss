@@ -9,6 +9,9 @@
     background-color: #1B2D37;
     padding-bottom: 92px;
   }
+  .header-logo__image--mobile {
+    display: none;
+  }
   .page-header__wrapper {
     display: flex;
     flex-direction: column;
@@ -156,6 +159,9 @@
     cursor: pointer;
     border-radius: 5px;
   }
+  .header-bottom__link--mobile {
+    display: none;
+  }
   .header-bottom__link:hover {
     background-color:#09a8ec;
   }
@@ -183,6 +189,9 @@
     background-size: cover, 260px 340px, 43%;
     padding-bottom: 150px;
   }
+  .header-logo__image--mobile {
+    display: none;
+  }
   .page-header__wrapper {
     width: 93.5%;
   }
@@ -193,6 +202,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     list-style: none;
     padding:0;
     margin:0;
@@ -228,4 +238,78 @@
   .header-bottom__scroll {
     display: none;
   }
+}
+@media(max-width:767px) {
+  .page-header {
+    background-image: url("../img/dark-background@1x.png"),
+      url("../img/circuit-mobile@1x.png"),
+      url("../img/geometry-mobile@1x.png");
+    background-size: cover, 294px 220px, 53%;
+    background-position: 50%, right 0 top 92px, right 0 top 0;
+    padding-bottom: 90px;
+  }
+  .page-header__top {
+    min-height: 38px;
+    padding-top: 17px;
+  }
+  .header-logo__image {
+    display: none;
+  }
+  .header-logo__image--mobile {
+    display: block;
+  }
+  .page-header__wrapper {
+    width: 90.6%;
+  }
+  .header-top__contacts--tablet {
+    min-width: 82px;
+    align-items: center;
+  }
+  .header-bottom h2 {
+    font-size: 40px;
+    line-height: 46px;
+    margin: 0px;
+    margin-top: 231px;
+    margin-bottom: 26px;
+  }
+  .header-bottom p {
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 60px;
+    width: 97%;
+  }
+  .header-bottom p::before {
+    content: '';
+    position: absolute;
+    width: 33px;
+    height: 2px;
+    background-color: #ffffff;
+    top:15px;
+    left:0px;
+  }
+  .header-bottom__link {
+    display: none;
+  }
+  .header-bottom__link--mobile {
+    display: block;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color:#ffffff;
+    text-transform: uppercase;
+    background-color: #00B2FF;
+    max-width: 407px;
+    min-height: 55px;
+    margin-left: 94px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0;
+  }
+  /*Tryna to sell this mfcks */
 }
