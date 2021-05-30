@@ -1,8 +1,9 @@
 .page-questions {
   min-height: 670px;
-  background:url(/img/airplane@1x.png) no-repeat;
-  background-size: 27% 36%;
-  background-position: 27% 37%;
+  background:url(/img/airplane@1x.png) no-repeat,
+  url(/img/form-triangles@1x.png) no-repeat;
+  background-size: 27% 36%, cover;
+  background-position:calc(40% - 210px) 42%,100% 63%;
   background-color: #00B2FF;
 }
 .page-questions__wrapper {

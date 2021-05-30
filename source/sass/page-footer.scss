@@ -262,7 +262,7 @@
     padding-top: 29px;
     padding:0;
     padding-bottom:0px ;
-    height: 73px;
+    min-height: 73px;
     border-bottom: 1px solid rgba(98,105,98,0.2);
   }
   .footer-top__right__heading {
@@ -271,22 +271,69 @@
 
   /* Стили под аккордион */
   .accordion {
-    background-color: #eee;
+    position: relative;
+    background-color: #fafafa;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding-left: 15px;
     width: 100%;
-    transition: 0.4s;
+    transition: 0.7s;
+    margin-bottom: 0px;
   }
-
-  .active, .accordion:hover {
-    background-color: #ccc;
+  .active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fafafa;
+    min-height: 73px;
   }
-
   .panel {
-    padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: #fafafa;
     overflow: hidden;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 23px;
+  }
+  .accordion:after {
+    content: '';  
+    width: 16px;
+    height: 1px;
+    border-top: 1px solid #B4B4B4;
+    display: block;
+    position: absolute;
+    right:32px;
+    top:10px;
+  }
+  .accordion::before {
+    content: '';  
+    width: 1px;
+    height: 16px;
+    border-right: 1px solid #B4B4B4;
+    display: block;
+    position: absolute;
+    transition: 0.4s;
+    right:39px;
+    top:2px;
+  }
+  
+  .active:after {
+    content: '';  
+    width: 16px;
+    height: 1px;
+    border-top: 1px solid #B4B4B4;
+    display: block;
+    position: absolute;
+    right:32px;
+    top:34px;
+  }
+  .active::before {
+    content: '';
+    width: 0px;
+    height: 0px;  
+  }
+  .footer-bottom {
+    border-top: none;
   }
 }
