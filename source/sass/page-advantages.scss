@@ -1,7 +1,11 @@
+.page-advantages {
+  scroll-behavior: smooth;
+}
 .page-advantages__wrapper {
         margin:0 auto;
         width: 61%;
         box-sizing: border-box;
+        padding-bottom: 50px;
 }
 .advantages-list {
     display: flex;
@@ -63,7 +67,7 @@
 .advantages-item:hover p {
   color:#ffffff;
 }
-.advantages-item:nth-child(1):hover::before
+.advantages-item:nth-child(1n):hover::before
  {
   content: '';
   position: absolute;
@@ -74,7 +78,7 @@
   left:45px;
   background-size: contain;
  }
-.advantages-item:nth-child(2):hover::before {
+.advantages-item:nth-child(2n):hover::before {
   content: '';
   position: absolute;
   width: 35px;
@@ -83,7 +87,7 @@
   top:40px;
   left:45px;
 }
-.advantages-item:nth-child(3):hover::before {
+.advantages-item:nth-child(3n):hover::before {
   content: '';
   position: absolute;
   width: 35px;
@@ -92,7 +96,7 @@
   top:40px;
   left:45px;
 }
-.advantages-item:nth-child(4):hover::before {
+.advantages-item:nth-child(4n):hover::before {
   content: '';
   position: absolute;
   width: 35px;
@@ -117,20 +121,20 @@
 .advantages-item p {
   margin-left: 27px;
 }
-.advantages-item:nth-child(1):hover::before
+.advantages-item:nth-child(1n):hover::before
  {
   top:25px;
   left:27px;
  }
-.advantages-item:nth-child(2):hover::before {
+.advantages-item:nth-child(2n):hover::before {
   top: 25px;
   left:27px;
 }
-.advantages-item:nth-child(3):hover::before {
+.advantages-item:nth-child(3n):hover::before {
   top:25px;
   left:27px;
 }
-.advantages-item:nth-child(4):hover::before {
+.advantages-item:nth-child(4n):hover::before {
   top:25px;
   left:27px;
 }
@@ -166,20 +170,20 @@
 .advantages-item:last-child {
   margin-bottom: 0px;
 }
-.advantages-item:nth-child(1):hover::before
+.advantages-item:nth-child(1n):hover::before
  {
   top:25px;
   left:28px;
  }
-.advantages-item:nth-child(2):hover::before {
+.advantages-item:nth-child(2n):hover::before {
   top: 25px;
   left:28px;
 }
-.advantages-item:nth-child(3):hover::before {
+.advantages-item:nth-child(3n):hover::before {
   top:25px;
   left:28px;
 }
-.advantages-item:nth-child(4):hover::before {
+.advantages-item:nth-child(4n):hover::before {
   top:25px;
   left:28px;
 }
