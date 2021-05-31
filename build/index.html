@@ -51,7 +51,7 @@
       <div class="page-header__bottom header-bottom">
         <h2 class="header-bottom__heading">Печатные платы</h2>
         <p class="header-bottom__description">производство и монтаж, поставка комплектующих, блоков и модулей</p>
-        <a class="header-bottom__link" href="#">Получить бесплатную консультацию</a>
+        <a class="header-bottom__link" href="#page-form">Получить бесплатную консультацию</a>
         <a class="header-bottom__link--mobile">Бесплатная консультация</a>
         <a class="header-bottom__scroll" href="#advantages">Скролл вниз</a>
       </div>
@@ -75,7 +75,7 @@
             </svg>
 
           <h3 class="advantages-item__heading">Крупные поставщики</h3>
-          <p class="advantages-item__description">Нашими поставщиками являются такие крупные мировые компании как: OSRAM, CREE, HOLGLITRONIC, REFOND.
+          <p class="advantages-item__description">Нашими поставщиками являются такие крупные мировые компании как: OSRAM,CREE, HOLGLITRONIC, REFOND.
              Сотрудничество с такими компаниями обеспичивает хорошее качество нашей продукции.</p>
         </li>
         <li class="advantages-list__item advantages-item">
@@ -129,14 +129,14 @@
         </ul>
       </div>
     </section>
-    <section class="page-questions">
+    <section class="page-questions" id="page-form">
       <div class="page-questions__wrapper">
         <div class="page-questions__content questions-content">
           <h2 class="questions-content__heading">Остались вопросы? Задайте их нам!</h2>
           <p class="questions-content__description">Мы проконсультируем Вас бесплатно</p>
           <form class="questions-content__form questions-form" method="POST">
             <input class="questions-form__input form-name" type="text" placeholder="Имя" required="">
-            <input class="questions-form__input form-phone" type="tel" placeholder="Телефон" required="">
+            <input class="questions-form__input form-phone phone_mask" type="tel" placeholder="Телефон" required="">
             <textarea class="questions-form__textarea form-textarea" placeholder="Ваш вопрос" required=""></textarea>
             <button class="questions-form__button" type="submit">Задать вопрос</button>
             <input class="questions-form__input questions-mark" type="checkbox" name="mark" id="mark" checked="" required=""><label class="questions-form__label" for="mark">Я согласен на обработку персональных данных</label>
@@ -248,7 +248,7 @@
         <p class="questions-content__description">Оставьте контакты, мы проконсультируем вас бесплатно в удобное время</p>
         <form class="questions-content__form--popup questions-form--popup" method="POST">
           <input class="questions-form__input--popup form-name" type="text" name="yourname" placeholder="Имя" required="">
-          <input class="questions-form__input--popup form-phone" type="tel" name="yourphone" placeholder="Телефон" required="">
+          <input class="questions-form__input--popup form-phone phone_mask" type="tel" name="yourphone" placeholder="Телефон" required="">
           <textarea class="questions-form__textarea--popup form-textarea" name="yourquestion" placeholder="Ваш вопрос" required=""></textarea>
           <button class="questions-form__button--popup" type="submit">Отправить</button>
           <input class="questions-form__input--popup questions-mark" type="checkbox" name="mark" id="mark-popup" checked="" required=""><label class="questions-form__label" for="mark-popup">Я согласен на обработку персональных данных</label>
@@ -258,5 +258,10 @@
   </div>
   <script src="js/accordion.js"></script>
   <script src="/js/popup.js"></script>
+  <script src="/js/imask.js"></script>
+  <script src="/js/moveTo.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js" type="text/javascript"></script>
+  <script src="/js/maskk.js"></script>
 </body>
 </html>

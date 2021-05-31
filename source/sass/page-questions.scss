@@ -200,7 +200,7 @@
   }
   .questions-content {
     min-height: 566px;
-    margin-top: 33px;
+    margin-top: 26px;
   }
   .questions-content h2 {
     font-size: 28px;
@@ -208,7 +208,7 @@
     margin-bottom: 15px;
   }
   .questions-content p {
-    margin-bottom: 30px;
+    margin-bottom: 27px;
   }
   .questions-form input {
     min-height: 51px;
@@ -229,8 +229,8 @@
   .questions-form input[type="checkbox"]+label::before {
     width: 17px;
     height: 16px;
-    top:7px;
-    left:-34px;
+    top:0px;
+    left:-37px;
   }
   .questions-form__label {
     margin-left: 34px;

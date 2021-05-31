@@ -90,7 +90,7 @@
 }
 @media(max-width:767px) {
   .page-about {
-    padding-top: 60px;
+    padding-top: 10px;
     padding-bottom: 65px;
   }
   .page-about__wrapper {
@@ -98,12 +98,18 @@
     width: 90.6%;
   }
   .page-about h2 {
+    font-size: 28px;
+    line-height: 39px;
     width: 100%;
     margin:0;
+    margin-bottom: 22px;
   }
   .page-about p {
     margin:0;
     min-width: 100%;
+  }
+  .page-about .page-about__description--tablet {
+    margin-top: 17px;
   }
   .page-about__more {
     margin-left: 0;

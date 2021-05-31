@@ -159,6 +159,7 @@
     margin-left: 94px;
     cursor: pointer;
     border-radius: 5px;
+    text-decoration: none;
   }
   .header-bottom__link--mobile {
     display: none;
@@ -250,7 +251,7 @@
       url("../img/geometry-mobile@1x.png");
     background-size: cover, 294px 220px, 53%;
     background-position: 50%, right 0 top 92px, right 0 top 0;
-    padding-bottom: 90px;
+    padding-bottom: 70px;
   }
   .page-header__top {
     min-height: 38px;
@@ -279,7 +280,8 @@
   .header-bottom p {
     font-size: 16px;
     line-height: 25px;
-    padding-left: 58px;
+    padding-left: 48px;
+    margin-bottom: 20px;
   }
   .header-bottom__description {
     min-width: 85%;
@@ -314,8 +316,10 @@
     margin-left: 94px;
     cursor: pointer;
     border-radius: 5px;
-    width: 100%;
+    width:  99%;
     margin: 0;
+    margin-top: 23px;
+    letter-spacing: 0.05em;
   }
   /*Tryna to sell this mfcks */
 }
