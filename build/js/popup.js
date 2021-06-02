@@ -9,61 +9,61 @@ var phones = popup2.querySelector('[name=yourphone]');
 var questions = popup2.querySelector('[name=yourquestion]');
 
 var isStorageSupport = true;
-var storage = "";
+var storage = '';
 
 try {
-  storage = localStorage.getItem("name");
+  storage = localStorage.getItem('name');
 } catch (err) {
   isStorageSupport = false;
 }
 
 
-link.addEventListener('click', function(evt) {
+link.addEventListener ('click', function(evt) {
   evt.preventDefault();
   popup.classList.add('modal-show');
   document.body.style.overflow = 'hidden';
 
-  if(storage) {
+  if (storage) {
     names.value = storage;
     phones.focus();
   }
   names.focus();
 });
 
-close.addEventListener('click', function(evt){
+close.addEventListener ('click', function(evt){
   evt.preventDefault();
   popup.classList.remove('modal-show');
   popup.classList.remove('modal-error');
   document.body.style.overflow = 'visible';
 });
 
-form.addEventListener('submit', function(evt) {
+form.addEventListener ('submit', function(evt) {
   if (!names.value || !phones.value || !questions.value) {
-      evt.preventDefault();
-      popup.classList.remove("modal-error");
-      popup.offsetWidth = popup.offsetWidth;
-      popup.classList.add("modal-error");
+    evt.preventDefault();
+    popup.classList.remove('modal-error');
+    popup.offsetWidth = popup.offsetWidth;
+    popup.classList.add('modal-error');
   } else {
-      if (isStorageSupport) {
-          localStorage.setItem("names", names.value);
-      }
+    if (isStorageSupport) {
+      localStorage.setItem("names", names.value);
+    }
   }
 });
 
-window.addEventListener("keydown", function(evt) {
+window.addEventListener ('keydown', function(evt) {
   if (evt.keyCode === 27) {
       evt.preventDefault();
-      if (popup.classList.contains("modal-show")) {
-          popup.classList.remove("modal-show");
-          popup.classList.remove("modal-error");
+      if (popup.classList.contains('modal-show')) {
+          popup.classList.remove('modal-show');
+          popup.classList.remove('modal-error');
           document.body.style.overflow = 'visible';
       }
   }
   if (evt.keyCode === 88) {
     evt.preventDefault();
-    if (popup.classList.contains("modal-show")) {
-        popup.classList.remove("modal-show");
-        popup.classList.remove("modal-error");
+    if (popup.classList.contains ('modal-show')) {
+        popup.classList.remove('modal-show');
+        popup.classList.remove('modal-error');
         document.body.style.overflow = 'visible';
     }
 }
