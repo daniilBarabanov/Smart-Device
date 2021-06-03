@@ -68,7 +68,7 @@ gulp.task("webp", function () {
 });
 
 gulp.task("sprite", function () {
-  return gulp.src("source/img/{icon-*,htmlacademy*}.svg")
+  return gulp.src("source/img/{icon-*,logo-*,htmlacademy*}.svg")
     .pipe(svgstore({inlineSvg: true}))
     .pipe(rename("sprite_auto.svg"))
     .pipe(gulp.dest("build/img"));
@@ -86,7 +86,7 @@ gulp.task("copy", function () {
   return gulp.src([
     "source/fonts/**/*.{woff,woff2}",
     "source/img/**",
-    "source/js/**",
+    // "source/js/**",
     "source//*.ico"
     ], {
       base: "source"
@@ -99,15 +99,15 @@ gulp.task("clean", function () {
 });
 
 gulp.task('concat-js-main', function () {
-  return gulp.src("source/js/main-*.js")
-    .pipe(concat("main.js"))
-    .pipe(gulp.dest("build/js"));
+  return gulp.src('source/js/main-*.js')
+    .pipe(concat('main.js'))
+    .pipe(gulp.dest('build/js'));
 });
 
 gulp.task('concat-js-vendor', function () {
-  return gulp.src("source/js/vendor-*.js")
-    .pipe(concat("vendor.js"))
-    .pipe(gulp.dest("build/js"));
+  return gulp.src('source/js/vendor-*.js')
+    .pipe(concat('vendor.js'))
+    .pipe(gulp.dest('build/js'));
 });
 
 gulp.task("build", gulp.series("clean", "copy", "css", "sprite", "html", "concat-js-main", "concat-js-vendor"));

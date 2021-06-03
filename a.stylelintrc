@@ -1,5 +1,0 @@
-{
-   "extends":"stylelint-config-standard",
-    // extends is the configuration package we installed,
-    // you can choose your own configuration package and update here
-}

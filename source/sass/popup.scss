@@ -16,7 +16,7 @@
   padding-right: 39px;
 }
 
-.questions-content__heading {
+.popup__form h2 {
   font-family: "Roboto Condensed", "Arial", sans-serif;
   font-size: 28px;
   line-height: 39px;
@@ -25,7 +25,7 @@
   margin: 0;
 }
 
-.questions-content__description {
+.popup__form p {
   font-family: "PT Mono", "Arial", sans-serif;
   font-size: 16px;
   line-height: 22px;
@@ -37,7 +37,7 @@
   margin-bottom: 40px;
 }
 
-.questions-content__form--popup {
+.popup__form form {
   display: flex;
   flex-direction: column;
   max-height: 100%;
@@ -99,7 +99,7 @@
   outline: none;
 }
 
-.questions-form__button--popup {
+.questions-form--popup button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,11 +120,11 @@
   margin-bottom: 34px;
 }
 
-.questions-form__button--popup:hover {
+.questions-form--popup button:hover {
   opacity: 0.7;
 }
 
-.questions-form__button--popup:active {
+.questions-form--popup button:active {
   opacity: 0.4;
 }
 

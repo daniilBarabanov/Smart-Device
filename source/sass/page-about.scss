@@ -74,6 +74,10 @@
 }
 
 @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+  .page-about {
+    background: url("../img/geometry-desktop@2x.png") no-repeat;
+  }
+
   .page-about__wrapper {
     background-image: url("../img/2005-desktop@2x.png");
   }

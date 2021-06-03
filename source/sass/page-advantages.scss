@@ -77,45 +77,8 @@
   color: #ffffff;
 }
 
-.advantages-item:nth-child(1n):hover::before {
-  content: "";
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  background: url("/img/icon-timer-hover.svg") no-repeat;
-  top: 40px;
-  left: 45px;
-  background-size: contain;
-}
-
-.advantages-item:nth-child(2n):hover::before {
-  content: "";
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  background: url("/img/icon-suppliers-hover.svg") no-repeat;
-  top: 40px;
-  left: 45px;
-}
-
-.advantages-item:nth-child(3n):hover::before {
-  content: "";
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  background: url("/img/icon-confidence-hover.svg") no-repeat;
-  top: 40px;
-  left: 45px;
-}
-
-.advantages-item:nth-child(4n):hover::before {
-  content: "";
-  position: absolute;
-  width: 35px;
-  height: 35px;
-  background: url("/img/icon-offer-hover.svg") no-repeat;
-  top: 40px;
-  left: 45px;
+.advantages-item:hover .advantages-item__image {
+  fill: white;
 }
 
 @media (max-width: 1023px) {
