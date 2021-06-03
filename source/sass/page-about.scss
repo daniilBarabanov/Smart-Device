@@ -1,7 +1,8 @@
 .page-about {
-  padding-bottom: 110px;
   background: url("/img/geometry-desktop@1x.png") no-repeat;
   background-size: cover;
+  min-height: 398px;
+  padding-bottom: 20px;
 }
 
 .page-about__wrapper {
@@ -12,7 +13,7 @@
   box-sizing: border-box;
   background: url("/img/2005-desktop@1x.png") no-repeat;
   background-size: contain;
-  background-position: -28px 0;
+  background-position: -24px 8px;
 }
 
 .page-about h2 {
@@ -22,7 +23,7 @@
   font-weight: 400;
   color: #666666;
   margin: 0;
-  margin-bottom: 18px;
+  margin-bottom: 23px;
   margin-left: 180px;
 }
 
@@ -63,9 +64,9 @@
   height: 45px;
   border: 1px solid #00b2ff;
   box-sizing: border-box;
-  margin-top: 30px;
   border-radius: 5px;
-  margin-left: 177px;
+  margin-top: 39px;
+  margin-left: 180px;
 }
 
 .page-about__more:hover {
@@ -85,7 +86,7 @@
 
 @media (max-width: 1023px) {
   .page-about {
-    padding-bottom: 83px;
+    padding-bottom: 31px;
   }
 
   .page-about__wrapper {
