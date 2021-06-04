@@ -97,7 +97,12 @@
     padding-top: 24px;
     padding-right: 17px;
     margin-bottom: 38px;
-    min-height: 232px;
+    min-height: 304px;
+  }
+
+  .advantages-item:nth-child(3n),
+  .advantages-item:nth-child(4n) {
+    min-height: 230px;
   }
 
   .advantages-item__image {

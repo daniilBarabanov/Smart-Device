@@ -20,6 +20,7 @@
   flex-direction: column;
   align-self: flex-end;
   margin-top: 93px;
+  margin-right: 11px;
 }
 
 .questions-content h2 {
@@ -29,7 +30,7 @@
   font-weight: 400;
   color: #ffffff;
   margin: 0;
-  margin-bottom: 7px;
+  margin-bottom: 9px;
 }
 
 .questions-content p {
@@ -43,6 +44,7 @@
 }
 
 .questions-form {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -177,6 +179,13 @@
   user-select: none;
 }
 
+.questions-form svg {
+  position: absolute;
+  top: 303px;
+  right: 247px;
+  display: none;
+}
+
 .questions-form input[type="checkbox"] + label::before {
   content: "";
   position: absolute;
@@ -192,10 +201,8 @@
   left: -30px;
 }
 
-.questions-form input[type="checkbox"]:checked + label::before {
-  background: url("/img/icon-tick.svg") no-repeat;
-  background-position: center;
-  background-size: 10px 10px;
+.questions-form input[type="checkbox"]:checked ~ svg {
+  display: block;
 }
 
 @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -255,6 +262,11 @@
     top: 3px;
     left: -40px;
   }
+
+  .questions-form svg {
+    top: 314px;
+    right: 257px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -300,6 +312,11 @@
     height: 16px;
     top: 0;
     left: -37px;
+  }
+
+  .questions-form svg {
+    top: 380px;
+    left: 1px;
   }
 
   .questions-form label {

@@ -39,11 +39,16 @@
   height: inherit;
 }
 
-.page-about__description--tablet {
+.page-about p:nth-child(3n) {
+  display: block;
+}
+
+.page-about p:nth-child(2n) {
   display: none;
 }
 
 .page-about p:first-of-type {
+  display: block;
   margin-bottom: 25px;
 }
 
@@ -107,16 +112,17 @@
     margin-left: 185px;
   }
 
-  .page-about__description--desktop {
-    display: none;
+  .page-about p:nth-child(2n) {
+    display: block;
   }
 
-  .page-about__description--tablet {
-    display: block;
+  .page-about p:nth-child(3n) {
+    display: none;
   }
 
   .page-about p:first-of-type {
     margin-bottom: 30px;
+    display: block;
   }
 
   .page-about__more {
@@ -155,8 +161,8 @@
     min-width: 100%;
   }
 
-  .page-about .page-about__description--tablet {
-    margin-top: 17px;
+  .page-about p:first-of-type {
+    margin-bottom: 47px;
   }
 
   .page-about__more {

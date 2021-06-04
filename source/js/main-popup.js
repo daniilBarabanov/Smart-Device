@@ -5,7 +5,7 @@
   var popup = document.querySelector('.popup');
   var popup2 = popup.querySelector('.popup__form');
   var close = popup2.querySelector('.close');
-  var form = popup2.querySelector('.questions-form--popup');
+  var form = popup2.querySelector('.form__popup');
   var names = popup2.querySelector('[name=yourname]');
   var phones = popup2.querySelector('[name=yourphone]');
   var questions = popup2.querySelector('[name=yourquestion]');
