@@ -223,6 +223,10 @@
     width: 55%;
   }
 
+  .services-item:nth-child(3n) span {
+    margin-top: 27px;
+  }
+
   .services-item:first-child {
     background: url("/img/producing-mobile@1x.png") no-repeat;
     background-size: cover;

@@ -38,7 +38,7 @@
 }
 
 .footer-top__middle {
-  margin-left: 20px;
+  margin-left: 70px;
   width: 36%;
   min-height: 100px;
 }
@@ -181,6 +181,14 @@
     min-height: 97px;
   }
 
+  .footer-top__left p {
+    order: 1;
+  }
+
+  .footer-top__logo {
+    order: 0;
+  }
+
   .footer-top__middle {
     position: relative;
     display: flex;
@@ -206,6 +214,7 @@
     min-width: 113px;
     margin-top: 0;
     margin-bottom: 0;
+    order:2;
   }
 
   .footer-top__left p {

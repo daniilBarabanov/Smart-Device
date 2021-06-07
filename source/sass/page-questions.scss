@@ -217,7 +217,7 @@
 
 @media (max-width: 1023px) {
   .page-questions {
-    min-height: 664px;
+    min-height: 661px;
     background: none;
     background-color: #00b2ff;
   }
@@ -228,7 +228,7 @@
 
   .questions-content {
     align-self: center;
-    margin-top: 83px;
+    margin-top: 78px;
     width: 100%;
   }
 
@@ -256,16 +256,21 @@
 
   .questions-form button {
     width: 279px;
+    margin-left: 8px;
   }
 
   .questions-form input[type="checkbox"] + label::before {
     top: 3px;
-    left: -40px;
+    left: -34px;
   }
 
   .questions-form svg {
-    top: 314px;
-    right: 257px;
+    top: 316px;
+    right: 251px;
+  }
+
+  .questions-form label {
+    margin-bottom: 4px;
   }
 }
 
