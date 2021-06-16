@@ -62,17 +62,17 @@
 }
 
 .services-item:first-child {
-  background: url("/img/producing-desktop@1x.png") no-repeat;
+  background: url("../img/producing-desktop@1x.png") no-repeat;
   background-size: cover;
 }
 
 .services-item:nth-child(2n) {
-  background: url("/img/installing-desktop@1x.png") no-repeat;
+  background: url("../img/installing-desktop@1x.png") no-repeat;
   background-size: cover;
 }
 
 .services-item:nth-child(3n) {
-  background: url("/img/led-desktop@1x.png") no-repeat;
+  background: url("../img/led-desktop@1x.png") no-repeat;
   background-size: cover;
 }
 
@@ -100,17 +100,17 @@
 
 @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
   .services-item:first-child {
-    background: url("/img/producing-desktop@2x.png") no-repeat;
+    background: url("../img/producing-desktop@2x.png") no-repeat;
     background-size: cover;
   }
 
   .services-item:nth-child(2n) {
-    background: url("/img/installing-desktop@2x.png") no-repeat;
+    background: url("../img/installing-desktop@2x.png") no-repeat;
     background-size: cover;
   }
 
   .services-item:nth-child(3n) {
-    background: url("/img/led-desktop@2x.png") no-repeat;
+    background: url("../img/led-desktop@2x.png") no-repeat;
     background-size: cover;
   }
 }
@@ -151,17 +151,17 @@
   }
 
   .services-item:first-child {
-    background: url("/img/producing-tablet@1x.png") no-repeat;
+    background: url("../img/producing-tablet@1x.png") no-repeat;
     background-size: cover;
   }
 
   .services-item:nth-child(2n) {
-    background: url("/img/installing-tablet@1x.png") no-repeat;
+    background: url("../img/installing-tablet@1x.png") no-repeat;
     background-size: cover;
   }
 
   .services-item:nth-child(3n) {
-    background: url("/img/led-tablet@1x.png") no-repeat;
+    background: url("../img/led-tablet@1x.png") no-repeat;
     background-size: cover;
   }
 
@@ -177,17 +177,17 @@
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     .services-item:first-child {
-      background: url("/img/producing-tablet@2x.png") no-repeat;
+      background: url("../img/producing-tablet@2x.png") no-repeat;
       background-size: cover;
     }
 
     .services-item:nth-child(2n) {
-      background: url("/img/installing-tablet@2x.png") no-repeat;
+      background: url("../img/installing-tablet@2x.png") no-repeat;
       background-size: cover;
     }
 
     .services-item:nth-child(3n) {
-      background: url("/img/led-tablet@3x.png") no-repeat;
+      background: url("../img/led-tablet@3x.png") no-repeat;
       background-size: cover;
     }
   }
@@ -228,33 +228,33 @@
   }
 
   .services-item:first-child {
-    background: url("/img/producing-mobile@1x.png") no-repeat;
+    background: url("../img/producing-mobile@1x.png") no-repeat;
     background-size: cover;
   }
 
   .services-item:nth-child(2n) {
-    background: url("/img/installing-mobile@1x.png") no-repeat;
+    background: url("../img/installing-mobile@1x.png") no-repeat;
     background-size: cover;
   }
 
   .services-item:nth-child(3n) {
-    background: url("/img/led-mobile@1x.png") no-repeat;
+    background: url("../img/led-mobile@1x.png") no-repeat;
     background-size: cover;
   }
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     .services-item:first-child {
-      background: url("/img/producing-mobile@2x.png") no-repeat;
+      background: url("../img/producing-mobile@2x.png") no-repeat;
       background-size: cover;
     }
 
     .services-item:nth-child(2n) {
-      background: url("/img/installing-mobile@2x.png") no-repeat;
+      background: url("../img/installing-mobile@2x.png") no-repeat;
       background-size: cover;
     }
 
     .services-item:nth-child(3n) {
-      background: url("/img/led-mobile@2x.png") no-repeat;
+      background: url("../img/led-mobile@2x.png") no-repeat;
       background-size: cover;
     }
   }

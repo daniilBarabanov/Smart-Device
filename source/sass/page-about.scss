@@ -1,5 +1,5 @@
 .page-about {
-  background: url("/img/geometry-desktop@1x.png") no-repeat;
+  background: url("../img/geometry-desktop@1x.png") no-repeat;
   background-size: cover;
   min-height: 398px;
   padding-bottom: 20px;
@@ -11,7 +11,7 @@
   margin: 0 auto;
   width: 61%;
   box-sizing: border-box;
-  background: url("/img/2005-desktop@1x.png") no-repeat;
+  background: url("../img/2005-desktop@1x.png") no-repeat;
   background-size: contain;
   background-position: -24px 8px;
 }
@@ -95,7 +95,7 @@
   }
 
   .page-about__wrapper {
-    background: url("/img/2005-tablet@1x.png") no-repeat;
+    background: url("../img/2005-tablet@1x.png") no-repeat;
     width: 93.5%;
     background-position: -25px 2px;
     background-size: contain;
