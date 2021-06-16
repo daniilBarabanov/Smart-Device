@@ -49,7 +49,7 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  min-height: 332px;
+  min-height: 336px;
   max-width: 570px;
 }
 
@@ -95,7 +95,7 @@
   width: 100%;
   min-height: 100px;
   border: none;
-  margin-top: 10px;
+  margin-top: 30px;
   cursor: pointer;
   resize: none;
 }
@@ -182,7 +182,7 @@
 
 .questions-form svg {
   position: absolute;
-  top: 303px;
+  top: 306px;
   right: 247px;
   display: none;
 }
@@ -231,6 +231,7 @@
     align-self: center;
     margin-top: 78px;
     width: 100%;
+    margin-right: 0;
   }
 
   .questions-content h2 {
@@ -239,13 +240,17 @@
     margin-bottom: 15px;
   }
 
+  .questions-content p {
+    margin-bottom: 52px;
+  }
+
   .questions-form {
-    min-height: 347px;
+    min-height: 345px;
     min-width: 100%;
   }
 
   .questions-form input {
-    width: 43%;
+    width: 42%;
     max-height: 51px;
     padding-left: 17px;
     padding-right: 16px;
@@ -257,17 +262,17 @@
 
   .questions-form button {
     width: 279px;
-    margin-left: 8px;
+    margin-left: 5px;
   }
 
   .questions-form input[type="checkbox"] + label::before {
-    top: 3px;
-    left: -34px;
+    top: -1px;
+    left: -40px;
   }
 
   .questions-form svg {
-    top: 316px;
-    right: 251px;
+    top: 313px;
+    right: 257px;
   }
 
   .questions-form label {
@@ -305,11 +310,12 @@
   .questions-form textarea {
     min-height: 90px;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   .questions-form button {
     width: 100%;
+    margin:0;
     margin-bottom: 30px;
   }
 

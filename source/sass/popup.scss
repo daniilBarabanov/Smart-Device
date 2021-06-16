@@ -1,8 +1,8 @@
 .popup {
   display: none;
   position: fixed;
-  top: 130px;
-  left: 37%;
+  top: 131px;
+  left: 37.25%;
   background-color: #00b2ff;
   width: 490px;
   height: 572px;
@@ -33,8 +33,8 @@
   font-weight: 400;
   margin: 0;
   width: 90%;
-  margin-top: 5px;
-  margin-bottom: 40px;
+  margin-top: 8px;
+  margin-bottom: 35px;
 }
 
 .popup__form form {
@@ -82,9 +82,9 @@
   padding-right: 24px;
   padding-top: 13px;
   width: 88%;
-  min-height: 100px;
+  min-height: 93px;
   border: none;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
   resize: none;
 }
 
@@ -147,7 +147,7 @@
 
 .form__popup svg {
   position: absolute;
-  top: 521px;
+  top: 509px;
   right: 438px;
   display: none;
 }

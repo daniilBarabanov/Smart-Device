@@ -37,6 +37,7 @@
   max-width: 87%;
   margin-left: 180px;
   height: inherit;
+  margin-bottom: 39px;
 }
 
 .page-about p:nth-child(3n) {
@@ -70,7 +71,6 @@
   border: 1px solid #00b2ff;
   box-sizing: border-box;
   border-radius: 5px;
-  margin-top: 39px;
   margin-left: 180px;
 }
 
@@ -121,18 +121,18 @@
   }
 
   .page-about p:first-of-type {
-    margin-bottom: 30px;
+    margin-bottom: 27px;
     display: block;
   }
 
   .page-about__more {
-    margin-top: 38px;
     margin-left: 188px;
   }
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     .page-about__wrapper {
       background-image: url("../img/2005-tablet@2x.png");
+      background-size: contain;
     }
   }
 }
@@ -159,6 +159,7 @@
   .page-about p {
     margin: 0;
     min-width: 100%;
+    margin-bottom: 33px;
   }
 
   .page-about p:first-of-type {
