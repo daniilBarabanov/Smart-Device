@@ -1,8 +1,7 @@
 /*eslint-disable*/
 
-'use strict';
-
-(function () {
+if (jQuery(window).width() < 1000) {
+  (function () {
   var acc = document.getElementsByClassName('accordion');
   var i;
   var allo = document.getElementsByClassName('allo');
@@ -32,3 +31,5 @@
     });
   }
 })();
+}
+

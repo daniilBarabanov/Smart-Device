@@ -140,7 +140,8 @@
   margin: 0;
   margin-top: 220px;
   margin-bottom: 26px;
-  letter-spacing: 0.007em;
+  margin-left: -6px;
+  letter-spacing: -4px;
 }
 
 .header-bottom p {
@@ -310,7 +311,7 @@
       url("../img/geometry-mobile@1x.png");
     background-size: cover, 294px 220px, 53%;
     background-position: 50%, right 0 top 92px, right 0 top 0;
-    padding-bottom: 70px;
+    padding-bottom: 68px;
   }
 
   .page-header__top {
@@ -341,7 +342,7 @@
     margin: 0;
     margin-top: 231px;
     margin-bottom: 26px;
-    letter-spacing: 2.8px;
+    letter-spacing: -2.2px;
   }
 
   .header-bottom p {
