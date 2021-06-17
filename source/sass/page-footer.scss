@@ -335,8 +335,14 @@
     width: 100%;
   }
 
+  .footer-contacts__item {
+    padding-right: 30px;
+  }
+
   /* Стили под аккордион */
   .accordion {
+    display: flex;
+    flex-direction: row;
     position: relative;
     background-color: #fafafa;
     color: #444444;
@@ -346,6 +352,8 @@
     transition: 0.7s;
     margin-bottom: 0;
     text-decoration: none;
+    min-height: 73px;
+    align-items: center;
   }
 
   .active {
@@ -354,6 +362,10 @@
     align-items: center;
     background-color: #fafafa;
     min-height: 73px;
+  }
+
+  .nonactive {
+    display: none;
   }
 
   .panel {
@@ -374,21 +386,6 @@
     position: absolute;
     right: 32px;
     top: 10px;
-  }
-
-  .accordion::before {
-    content: "";
-    width: 1px;
-    height: 16px;
-    border-right: 1px solid #b4b4b4;
-    display: block;
-    position: absolute;
-    transition: 0.4s;
-    right: 39px;
-    top: 2px;
-  }
-
-  .active::after {
     content: "";
     width: 16px;
     height: 1px;
@@ -399,10 +396,27 @@
     top: 34px;
   }
 
+  .active::after {
+    content: "";
+    width: 16px;
+    height: 1px;
+    border-top: 1px solid #b4b4b4;
+    display: block;
+    position: absolute;
+    right: 32px;
+    top: 29px;
+  }
+
   .active::before {
     content: "";
-    width: 0;
-    height: 0;
+    width: 1px;
+    height: 16px;
+    border-right: 1px solid #b4b4b4;
+    display: block;
+    position: absolute;
+    transition: 0.4s;
+    right: 39px;
+    top: 22px;
   }
 
   .footer-bottom {

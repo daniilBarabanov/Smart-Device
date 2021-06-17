@@ -34,7 +34,8 @@
 
 .services-item {
   min-height: 620px;
-  width: 31%;
+  width:calc(33.3% - 20px);
+  min-width: 255px;
 }
 
 .services-item:hover {
@@ -96,6 +97,24 @@
   transform: rotate(45deg);
   top: 25px;
   left: 24px;
+}
+
+@media(max-width:1320px) {
+  .page-services__wrapper {
+    width: 819px;
+  }
+
+  .services-list {
+    margin:0;
+    margin-bottom: 127px;
+  }
+
+  .services-item {
+    margin-right: 20px;
+  }
+  .services-item:last-of-type {
+    margin-right: 0;
+  }
 }
 
 @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
